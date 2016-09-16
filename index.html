@@ -18,9 +18,9 @@
 			<div class="col-md-12">
 				<form>
 					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search for...">
+						<input id="player-name" type="text" class="form-control" placeholder="Enter your name">
 						<span class="input-group-btn">
-							<button class="btn btn-default" type="button">Go!</button>
+							<button id="play-btn" class="btn btn-default" type="button">Play!</button>
 						</span>
 						
 					</div>
@@ -30,9 +30,11 @@
 		<div class="row">
 			<div class="col-md-4">
 				<div id="player1-buttons">
+					<h2> Player 1:<h2><h2 id="player1-name"></h2>
 					<button>Rock</button>
 					<button>Scissors</button>
 					<button>Paper</button>
+					<p>Wins:</p><p>Losses:</p>
 				</div>
 			</div>	
 			<div class="col-md-4">
@@ -42,9 +44,11 @@
 			</div>
 			<div class="col-md-4">
 				<div id="player2-buttons">
+					<h2>Player 2:</h2><h2 id="player2-name"></h2>
 					<button>Rock</button>
 					<button>Scissors</button>
 					<button>Paper</button>
+					<p>Wins:</p><p>Losses:</p>
 				</div>
 			</div>
 		</div>
